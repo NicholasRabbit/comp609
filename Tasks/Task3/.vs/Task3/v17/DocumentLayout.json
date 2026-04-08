@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|e:\\study at wintec\\applications development\\repository\\comp609\\tasks\\task3\\sale\\mainappconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|solutionrelative:sale\\mainappconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|e:\\study at wintec\\applications development\\repository\\comp609\\tasks\\task3\\sale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|solutionrelative:sale\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|e:\\study at wintec\\applications development\\repository\\comp609\\tasks\\task3\\sale\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|solutionrelative:sale\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|e:\\study at wintec\\applications development\\repository\\comp609\\tasks\\task3\\sale\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|solutionrelative:sale\\util.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|e:\\study at wintec\\applications development\\repository\\comp609\\tasks\\task3\\sale\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0B5B066E-4B60-4E36-B1A6-9E99A09046AB}|sale\\sale.csproj|solutionrelative:sale\\model.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 112,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Program.cs",
+              "RelativeDocumentMoniker": "sale\\Program.cs",
+              "ToolTip": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Program.cs",
+              "RelativeToolTip": "sale\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:42:11.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainAppConsole.cs",
+              "DocumentMoniker": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\MainAppConsole.cs",
+              "RelativeDocumentMoniker": "sale\\MainAppConsole.cs",
+              "ToolTip": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\MainAppConsole.cs",
+              "RelativeToolTip": "sale\\MainAppConsole.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:37:13.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Util.cs",
+              "DocumentMoniker": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Util.cs",
+              "RelativeDocumentMoniker": "sale\\Util.cs",
+              "ToolTip": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Util.cs",
+              "RelativeToolTip": "sale\\Util.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:22:39.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Database.cs",
+              "DocumentMoniker": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Database.cs",
+              "RelativeDocumentMoniker": "sale\\Database.cs",
+              "ToolTip": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Database.cs",
+              "RelativeToolTip": "sale\\Database.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T03:31:13.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Model.cs",
+              "DocumentMoniker": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Model.cs",
+              "RelativeDocumentMoniker": "sale\\Model.cs",
+              "ToolTip": "E:\\Study at Wintec\\Applications Development\\repository\\comp609\\Tasks\\Task3\\sale\\Model.cs",
+              "RelativeToolTip": "sale\\Model.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAiwB4AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-08T02:58:25.319Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 68,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

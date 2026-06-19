@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiveStockManagement.Pages.ProfitForecastPage"
+             Title="Profit Forecast">
+
+    <ScrollView>
+        <VerticalStackLayout Padding="16" Spacing="10">
+            <!-- Heading -->
+            <Label Text="Profit Forecast for Livestock Investment"
+                   FontSize="18" FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   Margin="0,0,0,4"/>
+            <!-- Inputs -->
+            <Label Text="Livestock Type:" FontAttributes="Bold"/>
+            <Picker x:Name="TypePicker">
+                <Picker.Items>
+                    <x:String>Cow</x:String>
+                    <x:String>Sheep</x:String>
+                </Picker.Items>
+            </Picker>
+
+            <Label Text="Investment Quantity:" FontAttributes="Bold"/>
+            <Entry x:Name="QuantityEntry" Keyboard="Numeric"
+                   Placeholder="Enter number of animals to invest in"/>
+
+            <Label Text="Number of Days:" FontAttributes="Bold"/>
+            <Entry x:Name="DaysEntry" Keyboard="Numeric"
+                   Placeholder="Enter number of days"/>
+
+            <Label x:Name="ErrorLabel" TextColor="Red" IsVisible="False"/>
+
+            <Button Text="Calculate Forecast"
+                    Clicked="OnCalculateClicked"
+                    WidthRequest="200" HorizontalOptions="Center"
+                    TextColor="White"/>
+
+            <!-- Results -->
+            <Frame x:Name="ResultsFrame" IsVisible="False"
+                   BorderColor="#CCCCCC" Padding="12" CornerRadius="6">
+                <VerticalStackLayout Spacing="8">
+                    <Label Text="Forecast Results" FontSize="16" FontAttributes="Bold"/>
+                    <BoxView HeightRequest="1" Color="#DDDDDD"/>
+
+                    <!-- Avg Daily Profit used -->
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label x:Name="LblAvgLabel" Text="Avg Daily Profit per Animal:"/>
+                        <Label x:Name="LblAvgProfit" Grid.Column="1"
+                               FontAttributes="Bold" HorizontalOptions="End"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Investment Quantity:"/>
+                        <Label x:Name="LblQuantity" Grid.Column="1"
+                               FontAttributes="Bold" HorizontalOptions="End"/>
+                    </Grid>
+
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label Text="Number of Days:"/>
+                        <Label x:Name="LblDays" Grid.Column="1"
+                               FontAttributes="Bold" HorizontalOptions="End"/>
+                    </Grid>
+
+                    <BoxView HeightRequest="1" Color="#DDDDDD"/>
+
+                    <Grid ColumnDefinitions="*,Auto">
+                        <Label x:Name="LblTotalLabel" Text="Estimated Total Profit:"
+                               FontSize="15" FontAttributes="Bold"/>
+                        <Label x:Name="LblTotalProfit" Grid.Column="1"
+                               FontSize="15" FontAttributes="Bold" HorizontalOptions="End"/>
+                    </Grid>
+                </VerticalStackLayout>
+            </Frame>
+
+            <!-- No data warning -->
+            <Frame x:Name="NoDataFrame" IsVisible="False"
+                   BorderColor="#FF9800" Padding="12" CornerRadius="6">
+                <Label x:Name="LblNoData" TextColor="#E65100"/>
+            </Frame>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

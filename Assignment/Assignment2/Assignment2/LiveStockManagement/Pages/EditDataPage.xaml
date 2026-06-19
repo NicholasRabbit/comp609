@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiveStockManagement.Pages.EditDataPage"
+             xmlns:pages="clr-namespace:LiveStockManagement.Pages"
+             x:DataType="pages:EditDataPage"
+             Title="EditDataPage">
+    <VerticalStackLayout HorizontalOptions="Center" Spacing="10">
+        <Picker x:Name="AnimalPicker"
+                Title="Select Animal Type"
+                ItemsSource="{Binding AnimalTypes, Mode=OneTime}"
+                SelectedIndexChanged="OnAnimalTypeChanged"/>
+
+        <Entry x:Name="ExpenseEntry" Placeholder="Expense" Keyboard="Numeric"/>
+        <Entry x:Name="WeightEntry"  Placeholder="Weight"  Keyboard="Numeric"/>
+
+        <Entry x:Name="ColourEntry" Placeholder="Colour (black, red, or white)"/>
+        <Entry x:Name="MilkEntry"
+               Placeholder="Milk"
+               Keyboard="Numeric"
+               IsVisible="{Binding IsCow}"/>
+        <Entry x:Name="WoolEntry"
+               Placeholder="Wool"
+               Keyboard="Numeric"
+               IsVisible="{Binding IsSheep}"/>
+
+        <Button Text="Add Record" Clicked="Add"/>
+
+    </VerticalStackLayout>
+    
+</ContentPage>

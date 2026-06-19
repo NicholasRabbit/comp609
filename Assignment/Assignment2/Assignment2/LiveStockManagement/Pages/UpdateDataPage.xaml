@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LiveStockManagement.Pages.UpdateDataPage"
+             xmlns:page="clr-namespace:LiveStockManagement.Pages"
+             Title="UpdateDataPage">
+    <VerticalStackLayout HorizontalOptions="Center" Spacing="10">
+
+        <!-- Step 1: Look up by ID -->
+        <Entry x:Name="IdEntry"
+               Placeholder="Enter ID to look up"
+               Keyboard="Numeric"/>
+        <Button Text="Find Record"
+                Clicked="OnFindClicked"/>
+
+        <!-- Step 2: Edit form – hidden until a record is found -->
+        <VerticalStackLayout IsVisible="{Binding IsRecordFound}" Spacing="10">
+
+            <Label Text="{Binding RecordSummary}"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"/>
+
+            <Entry x:Name="ExpenseEntry"
+                   Placeholder="Expense"
+                   Keyboard="Numeric"
+                   Text="{Binding ExpenseText}"/>
+
+            <Entry x:Name="WeightEntry"
+                   Placeholder="Weight"
+                   Keyboard="Numeric"
+                   Text="{Binding WeightText}"/>
+
+            <Entry x:Name="ColourEntry"
+                   Placeholder="Colour (black, red, or white)"
+                   Text="{Binding ColourText}"/>
+
+            <!-- Shown only for Cows -->
+            <Entry x:Name="MilkEntry"
+                   Placeholder="Milk"
+                   Keyboard="Numeric"
+                   Text="{Binding MilkText}"
+                   IsVisible="{Binding IsCow}"/>
+
+            <!-- Shown only for Sheep -->
+            <Entry x:Name="WoolEntry"
+                   Placeholder="Wool"
+                   Keyboard="Numeric"
+                   Text="{Binding WoolText}"
+                   IsVisible="{Binding IsSheep}"/>
+
+            <Button Text="Save Changes"
+                    Clicked="OnSaveClicked"/>
+
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+
+
+</ContentPage>
